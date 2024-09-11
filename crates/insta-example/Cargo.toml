@@ -1,0 +1,9 @@
+[package]
+name = "insta-example"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dev-dependencies]
+insta = { version = "1.40.0", features = ["ron"] }
+serde = { version = "1.0", features = ["derive"] }

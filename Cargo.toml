@@ -1,0 +1,14 @@
+[package]
+name = "insta-test"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[workspace]
+resolver = "2"
+members = [
+    "crates/insta-example"
+]
+
+[dev-dependencies]
+insta = { version = "1.40.0", features = ["ron"] }
